@@ -1,0 +1,65 @@
+/* Type Selector */
+
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+     
+}
+
+.style-me1 {
+    color: red;
+}
+
+#style-me2 {
+    color: blue;
+}
+
+.style-me1#style-me2 {
+    color: purple;
+} /* specific selector */
+
+.my-descendants-are-styled p {
+    background-color: red;
+}
+
+.my-children-are-styled > p {
+    background-color:red ;
+}
+
+.box {
+    margin: 4px;
+    padding: 10px;
+    width: 90%;
+    height: 80%;
+    border: 10px solid maroon;
+    size: 1px;
+    overflow:auto;
+    outline: 10px solid goldenrod;
+    border-radius: 90%;
+    background-image: url("./assets/images/img1.png");
+    background-size:100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.position-absolute {
+    position:center;
+}
+
+.position-relative {
+    position:relative;
+}
+
+.position-sticky {
+    position:sticky;
+    top: 50px;
+}
+
+.text-style {
+    color: cadetblue;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight:bold 700;
+}
