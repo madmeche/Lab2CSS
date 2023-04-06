@@ -31,8 +31,8 @@ article {
 .box {
     margin: 4px;
     padding: 10px;
-    width: 90%;
-    height: 80%;
+    width: calc(100vw);
+    height: calc(100%-15px) ;
     border: 10px solid maroon;
     size: 1px;
     overflow:auto;
@@ -62,4 +62,36 @@ article {
     font-size: 15px;
     line-height: 20px;
     font-weight:bold 700;
+    font-family: 'Rubik Pixels', cursive;
+    text-align:center;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-transform: normal;
+    text-decoration: darkkhaki;
+}
+a:link {
+    color: darkslateblue;
+    font-size: larger;
+}
+
+a:visited {
+    color: darksalmon;
+    font-size: smaller;
+}
+
+a:hover {
+    color: lightsteelblue;
+    font-size: x-small;
+}
+
+a:active {
+    color:blue
+}
+
+a:focus {
+    color: cadetblue;
+}
+
+.calc-style {
+    width: calc(100vw-100px);
 }
